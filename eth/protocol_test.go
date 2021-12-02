@@ -154,6 +154,7 @@ func TestStatusMsgErrors64(t *testing.T) {
 	}
 }
 
+
 func TestForkIDSplit(t *testing.T) {
 	var (
 		engine = ethash.NewFaker()
