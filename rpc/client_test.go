@@ -473,6 +473,8 @@ func TestClientHTTP(t *testing.T) {
 	}
 }
 
+
+
 func TestClientReconnect(t *testing.T) {
 	startServer := func(addr string) (*Server, net.Listener) {
 		srv := newTestServer()
