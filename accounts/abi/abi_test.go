@@ -87,6 +87,7 @@ var (
 		{Name: "f", Type: "uint256"}})
 )
 
+
 var methods = map[string]Method{
 	"":                    NewMethod("", "", Function, "view", false, false, nil, nil),
 	"balance":             NewMethod("balance", "balance", Function, "view", false, false, nil, nil),
