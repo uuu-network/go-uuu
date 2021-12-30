@@ -40,6 +40,8 @@ func TestInstructionIteratorValid(t *testing.T) {
 	}
 }
 
+
+
 // Tests disassembling the instructions for invalid evm code
 func TestInstructionIteratorInvalid(t *testing.T) {
 	cnt := 0
