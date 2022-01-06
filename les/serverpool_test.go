@@ -106,6 +106,7 @@ func (s *serverPoolTest) addTrusted(i int) {
 	s.trusted = append(s.trusted, enode.SignNull(&enr.Record{}, testNodeID(i)).String())
 }
 
+
 func (s *serverPoolTest) start() {
 	var testQuery queryFunc
 	if s.preNeg {
