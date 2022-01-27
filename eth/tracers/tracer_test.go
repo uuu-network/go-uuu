@@ -32,6 +32,7 @@ import (
 
 type account struct{}
 
+
 func (account) SubBalance(amount *big.Int)                          {}
 func (account) AddBalance(amount *big.Int)                          {}
 func (account) SetAddress(common.Address)                           {}
