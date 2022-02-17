@@ -23,6 +23,7 @@ import (
 	"github.com/ethereum/go-ethereum/ethdb"
 )
 
+
 func TestTableDatabase(t *testing.T)            { testTableDatabase(t, "prefix") }
 func TestEmptyPrefixTableDatabase(t *testing.T) { testTableDatabase(t, "") }
 
