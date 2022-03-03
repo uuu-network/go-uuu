@@ -49,6 +49,7 @@ var (
 	simAdapter = flag.String("adapter", "exec", "type of simulation: sim|socket|exec|docker")
 )
 
+
 func TestMain(m *testing.M) {
 	flag.Parse()
 	log.PrintOrigins(true)
