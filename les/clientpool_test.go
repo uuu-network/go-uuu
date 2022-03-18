@@ -230,6 +230,7 @@ func TestConnectPaidClientToFullPool(t *testing.T) {
 	}
 }
 
+
 func TestPaidClientKickedOut(t *testing.T) {
 	var (
 		clock    mclock.Simulated
