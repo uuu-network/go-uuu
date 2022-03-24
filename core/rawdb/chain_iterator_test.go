@@ -26,6 +26,7 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 )
 
+
 func TestChainIterator(t *testing.T) {
 	// Construct test chain db
 	chainDb := NewMemoryDatabase()
