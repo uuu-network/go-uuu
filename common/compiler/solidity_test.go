@@ -21,6 +21,7 @@ import (
 	"testing"
 )
 
+
 const (
 	testSource = `
 pragma solidity >0.0.0;
