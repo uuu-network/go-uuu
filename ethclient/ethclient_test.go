@@ -228,6 +228,7 @@ func generateTestChain() (*core.Genesis, []*types.Block) {
 	return genesis, blocks
 }
 
+
 func TestHeader(t *testing.T) {
 	backend, chain := newTestBackend(t)
 	client, _ := backend.Attach()
