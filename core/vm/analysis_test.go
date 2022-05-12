@@ -22,6 +22,7 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 )
 
+
 func TestJumpDestAnalysis(t *testing.T) {
 	tests := []struct {
 		code  []byte
