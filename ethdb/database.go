@@ -67,6 +67,7 @@ type KeyValueStore interface {
 	io.Closer
 }
 
+
 // AncientReader contains the methods required to read from immutable ancient data.
 type AncientReader interface {
 	// HasAncient returns an indicator whether the specified data exists in the
