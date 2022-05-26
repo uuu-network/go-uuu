@@ -72,6 +72,7 @@ at block: 0 ({{niltime}})
 	geth.ExpectExit()
 }
 
+
 // Tests that a console can be attached to a running node via various means.
 func TestIPCAttachWelcome(t *testing.T) {
 	// Configure the instance for IPC attachment
