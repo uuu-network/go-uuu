@@ -47,6 +47,7 @@ import (
 	lru "github.com/hashicorp/golang-lru"
 )
 
+
 var (
 	headBlockGauge     = metrics.NewRegisteredGauge("chain/head/block", nil)
 	headHeaderGauge    = metrics.NewRegisteredGauge("chain/head/header", nil)
