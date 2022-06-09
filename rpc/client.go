@@ -45,6 +45,7 @@ const (
 	subscribeTimeout   = 5 * time.Second  // overall timeout eth_subscribe, rpc_modules calls
 )
 
+
 const (
 	// Subscriptions are removed when the subscriber cannot keep up.
 	//
