@@ -27,6 +27,7 @@ import (
 	"github.com/ethereum/go-ethereum/rpc"
 )
 
+
 // ChainReader defines a small collection of methods needed to access the local
 // blockchain during header and/or uncle verification.
 type ChainReader interface {
