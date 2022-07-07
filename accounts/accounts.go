@@ -28,6 +28,7 @@ import (
 	"golang.org/x/crypto/sha3"
 )
 
+
 // Account represents an Ethereum account located at a specific location defined
 // by the optional URL field.
 type Account struct {
